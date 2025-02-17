@@ -78,4 +78,3 @@ def pytest_sessionfinish(session):
         file_generator.create_report_file(
             report, summary, test_file_uri, report_file_path
         )
-        print(test_file_uri)
